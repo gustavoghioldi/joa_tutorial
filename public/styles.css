@@ -1,0 +1,12 @@
+* {
+    background-color: bisque;
+    font-style: italic;
+    font-family: fantasy;
+}
+.titulo_1 {
+    background-color: antiquewhite;
+    font-style: normal;
+}
+.titulo_2 {
+    background-color: blueviolet;
+}

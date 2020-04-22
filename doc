@@ -1,0 +1,89 @@
+Que hay que instalar?
+Vscode
+nodeJS -> brew install node
+npm install -g http-server
+npm install -g firebase-tools
+clase 1:
+commands:
+http-server
+
+firesabe login
+firebase init
+
+firebase serve
+
+firebase deploy
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes de cosas | ej 1</title>
+</head>
+
+<body>
+    <h1>Esto es un h1</h1>
+    <h2>Esto es un h2</h2>
+    <h6>Esto ers un h6</h6>
+    <em>Esto en un em</em> <br>
+    <strong>Esto es un strong</strong> <br>
+
+   Hola <br>
+   Este es mi pagina web
+   <p>vesion 0.0.1</p>
+   <p>2020</p>
+    <p>
+        <strong>Esto es una <em>fraser</em></strong>
+    </p>
+    <a href="https://www.google.com" >ir a google</a> <br>
+    <a href="https://www.google.com" target="_blank">ir a google abriendo una pestaña nueva</a>
+    <br>
+    <a href="https://www.google.com" target="_blank">
+        <img src="img/barba.jpeg" alt="mi foto">
+    </a>
+
+    <br>
+    <img src="https://ichef.bbci.co.uk/news/1024/branded_mundo/48DD/production/_107435681_perro1.jpg" alt="mi foto" width="25%" height="25%">
+    <ul>
+        <li>hjh</li>
+        <li>kdjjk</li>
+    </ul>
+
+    
+</body>
+</html>
+
+HTML, CSS, JAVASCRIPT en firebase (4 clases)
+Complementarios: 
+https://www.youtube.com/watch?v=rbuYtrNUxg4
+https://www.youtube.com/watch?v=W6GTDfrWjXs
+https://www.youtube.com/watch?v=RqQ1d1qEWlE
+
+PHP y Objetos (12 clases)
+https://youtu.be/rdLnRg-mOfY
+
+Patrón MVC (1 clase)
+
+GIT (1 clase)
+Docker (2 clases)
+
+Mysql – SQL (4 clases)
+https://www.youtube.com/watch?v=c4P__KoPZwo
+
+E commerce – OpenCart (4 clases)
+
+Deploy en GCP (3 clases)
+
+Clase 1
+
+-	Apertura de un hipervínculo en otra pestaña del navegador.
+-	<ol>
+-	<ul>
+-	<dl>
+-	<table><tr><td>
+-	<th>
+-	<title>
+-	 <!-- -->
+-	DEPLOY in firebase

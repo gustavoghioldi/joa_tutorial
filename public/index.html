@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes de cosas | ej 1</title>
+</head>
+
+<body>
+    <form id="formulario">
+        Nombre: <input id="nombre" type="text"><br>
+        Apellido: <input id="apellido"  type="text"><br>
+        <input type="button" onclick="saludo()" value="enviar">
+    </form>
+
+    <form>
+        Numero: <input id="num1" type="number"><br>
+        <input type="button" onclick="listar()" value="enviar">
+    </form>
+    <h1 style="color: red; background-color: aqua;">Esto es un h1</h1>
+    <h2 style="margin: 100px;">Esto es un h2</h2>
+    <h6 class="titulo_1">Esto ers un h6</h6>
+    <em class="titulo_2">Esto en un em</em> <br>
+    <strong class="titulo_2">Esto es un strong</strong> <br>
+
+   Hola <br>
+   Este es mi pagina web
+   <p>vesion 0.0.1</p>
+   <p>2020</p>
+    <p>
+        <strong>Esto es una <em>fraser</em></strong>
+    </p>
+    <a href="https://www.google.com" >ir a google</a> <br>
+    <a href="https://www.google.com" target="_blank">ir a google abriendo una pestaña nueva</a>
+    <br>
+    <a href="https://www.google.com" target="_blank">
+        <img src="img/barba.jpeg" alt="mi foto">
+    </a>
+
+    <br>
+
+    <img src="https://ichef.bbci.co.uk/news/1024/branded_mundo/48DD/production/_107435681_perro1.jpg" alt="mi foto" width="25%" height="25%">
+    <ul>
+        <li>hjh</li>
+        <li>kdjjk</li>
+    </ul>
+    <script>
+
+        function saludo() {
+            var nombre = document.getElementById('nombre').value
+            var apellido = document.getElementById('apellido').value
+            document.getElementById('formulario').hidden = true;
+            ejecutar_saludo(nombre, apellido);
+        }
+
+        function ejecutar_saludo(nom, ape) {
+            alert("HOLA: "+nom+" "+ape);
+        }
+
+        function listar() {
+            var numero = document.getElementById('num1').value
+            var i = 0;
+            while(i<= numero) {
+                alert(i);
+                i++; // i = i +1 o i += 1
+            }
+            alert("terminado por que i="+i);
+        }
+        
+    
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>
